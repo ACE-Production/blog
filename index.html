@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <title>Mi primer blog</title>
 </head>
 <body>
-
+    <div class="fondo">
+    <nav id="navegador">
+    <ul>    
+        <li>
+            <a href="">INICIO</a>
+        </li>
+        <li>
+            <a href="">TEMAS</a>
+        </li>
+        <li>
+            <a href="">BIBLIOTECA</a>
+        </li>
+    </ul>
+    </nav>
+    <h1>Mi segundo proyecto</h1>
+    <hr>
+    <h2>Confidant</h2>
+    <p>"I am <span style="color:blue">Thou... Thou</span> art I...
+        <br>Thou hast acquired a new vow...
+        <br>It shall become the wings of rebellion
+        <br>That breaketh thy chains of captivity.
+        <br>With the birth of (Arcana's Name) Persona
+        <br>I have obtained the winds of blessing that
+        <br>shall lead to freedom and new power..."
+    </p>
+    <!--"I am thou... Thou art I... From the sea of thy soul, I come..."-->
+    <h3><a style="text-decoration: none;" href="https://megamitensei.fandom.com/wiki/I_am_thou">Ir a origen</a></h3>
+    <br><img src="arcana.jpg" width="400"/>
+    <form action="/comentarios" method="post">
+        <br><label style="font-size: larger;" for="comentario">Comentarios:</label>
+        <br><br><textarea required name="comentario" id="comentario" placeholder="ingrese comentarios..." cols="50" rows="5"></textarea>
+        <br><button type="submit"><img src="enviar_comentario.jpg" width="40" height="40">Enviar</button>
+    </form>
+    </div>
 </body>
 </html>
